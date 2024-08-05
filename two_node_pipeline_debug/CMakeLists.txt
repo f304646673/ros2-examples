@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(two_node_pipeline)
+project(two_node_pipeline_debug)
 
 enable_testing()
 
@@ -16,7 +16,7 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 
-set(EXECUTABLE_NAME "two_node_pipeline")
+set(EXECUTABLE_NAME "two_node_pipeline_debug")
 
 # Collect all source files in this directory
 file(GLOB SOURCES "src/*.cpp")
