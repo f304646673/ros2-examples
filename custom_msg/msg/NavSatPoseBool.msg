@@ -1,0 +1,3 @@
+sensor_msgs/NavSatStatus nav
+geometry_msgs/PoseWithCovariance pose
+std_msgs/Bool boolvalue
